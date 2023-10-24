@@ -1,0 +1,81 @@
+div.container{
+    background-color: purple;
+    border-radius: 10px;
+    height: 41vh;
+    width: 35vw;
+    margin-top: 20vh;
+    margin-left: 31.3vw;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    padding: 10px;
+    font-size: 20px
+}
+button{
+    width: 27.5vw;
+    height: 6vh;
+    background-color: rgb(83, 18, 83);
+    color: white;
+    font-size: 20px
+}
+button:hover{
+    background-color: rgb(59, 16, 59);
+}
+h1{
+    margin-top: 5vh;
+    margin-left: 38.8vw;
+    font-size: 50px;
+}
+button.verdadeiro{
+    background-color: greenyellow;
+}
+button.proximaparte{
+    margin-left: 36.2vw;
+    margin-top: 3vh;
+}
+p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    div.container{
+        background-color: purple;
+        border-radius: 10px;
+        height: 41vh;
+        width: 35vw;
+        margin-top: 20vh;
+        margin-left: 31.3vw;
+        padding: 10px;
+        text-align: center;
+    }
+    label{
+        padding: 10px;
+        font-size: 20px
+    }
+    button{
+        width: 27.5vw;
+        height: 4vh;
+        background-color: rgb(83, 18, 83);
+        color: white;
+        font-size: 16px
+    }
+    button:hover{
+        background-color: rgb(59, 16, 59);
+    }
+    h1{
+        margin-top: 5vh;
+        margin-left: 35vw;
+        font-size: 50px;
+    }
+    button.verdadeiro{
+        background-color: greenyellow;
+    }
+    button.proximaparte{
+        margin-left: 36.2vw;
+        margin-top: 3vh;
+    }
+    p{
+        font-size: 20px;
+    }
+}
